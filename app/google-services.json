@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "63469711336",
+    "firebase_url": "https://m-parivahan.firebaseio.com",
+    "project_id": "m-parivahan",
+    "storage_bucket": "m-parivahan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63469711336:android:22b33e6bf2bdf5d7eefe5d",
+        "android_client_info": {
+          "package_name": "com.example.android.m_pariwahan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63469711336-3jdccdkd9kn4dsvrseq0uj2r55cq8q6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.m_pariwahan",
+            "certificate_hash": "45bc36fee760591356b3d8db0b3bdc4bafceb0f7"
+          }
+        },
+        {
+          "client_id": "63469711336-lue9il71a3qg4rjq0qqmrfqilh74ecqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqDhstZl_uOgZt4Ox2j5Q8QhAU6m_2Vo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63469711336-lue9il71a3qg4rjq0qqmrfqilh74ecqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
