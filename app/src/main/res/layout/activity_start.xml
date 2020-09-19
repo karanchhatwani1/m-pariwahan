@@ -5,13 +5,14 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFC107"
     tools:context=".StartActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="281dp"
         android:text="Welcome to m_pariwahan"
         android:textColor="#090909"
         android:textColorHint="#050505"
@@ -19,14 +20,18 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/sign_up_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="60dp"
-        android:background="#E91E63"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FF5722"
         android:text="Create A New Account "
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +42,12 @@
         android:id="@+id/log_in_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="#009688"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FF5722"
         android:text="Account Already Exist"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,21 +55,13 @@
         app:layout_constraintTop_toBottomOf="@+id/sign_up_button" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="234dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:srcCompat="@drawable/images5" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="417dp"
-        android:layout_height="234dp"
+        android:id="@+id/imageView5"
+        android:layout_width="385dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/images5" />
+        app:srcCompat="@drawable/traffic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

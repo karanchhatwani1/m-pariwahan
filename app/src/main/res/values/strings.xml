@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">m-pariwahan</string>
+    <string name="driver_s_name">Driver\'s Name</string>
+    <string name="D">Dharendra Yogi</string>
+    <string name="login">Login</string>
 </resources>
